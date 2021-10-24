@@ -251,10 +251,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepansupport"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/thecrepan"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
             ]
         )
 
@@ -289,10 +289,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                        InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepansupport"),
+                        InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/thecrepan"),
                     ],
-                    [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                    [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
                 ]
             )
 
@@ -307,7 +307,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"⚠️ ᴠɪᴅᴇᴏ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴀʀᴇɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ɪᴛ..!"
             )
             return
         requested_by = message.from_user.first_name
@@ -316,12 +316,12 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @DeCodeMusicBot**"
+                "🤷 **ꜱᴏɴɢ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ..!**"
             )
-        await lel.edit("🔎 **Finding the song...**")
+        await lel.edit("🔎 **ꜰɪɴᴅɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **Processing sounds...**")
+        await lel.edit("💡 **ᴘʟᴀʏɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -344,7 +344,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "❌ Song not found.\n\nTry another song or maybe spell it properly."
+                "🤷 ꜱᴏɴɢ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ."
             )
             print(str(e))
             return
@@ -352,16 +352,16 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepansupport"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/thecrepan"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
             ]
         )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"⚠️ ᴠɪᴅᴇᴏ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴀʀᴇɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ɪᴛ..!"
             )
             return
         requested_by = message.from_user.first_name
@@ -372,7 +372,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**🎵 Song:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**#⃣ Queued Position:** {}".format(
+            caption="**🏷️ ɴᴀᴍᴇ :** {}\n**🕒 ᴅᴜʀᴀᴛɪᴏɴ :** {} min\n**🙋‍♂️ ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** {}\n\n**#⃣ Qᴜᴇᴜᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ :** {}".format(
                 title,
                 duration,
                 message.from_user.mention(),
@@ -385,7 +385,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🎵 Song:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**▶️ Now Playing at `{}`...**".format(
+            caption="**🏷️ ɴᴀᴍᴇ :** {}\n**🕒 ᴅᴜʀᴀᴛɪᴏɴ :** {} min\n**🙋‍♂️ ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** {}\n\n**💽 ɴᴏᴡ ᴘʟᴀʏɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ ᴀᴛ `{}`...**".format(
                 title, duration, message.from_user.mention(), message.chat.title
             ),
         )
