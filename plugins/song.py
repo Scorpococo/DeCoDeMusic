@@ -45,13 +45,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("`ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ... ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴅᴀᴛᴀʙᴀꜱᴇ 🌐`")
+    m.edit("`ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴅᴀᴛᴀʙᴀꜱᴇ...`")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"🎙 **ᴛɪᴛʟᴇ**: [{title[:35]}]({link})\n🎬 **ꜱᴏᴜʀᴄᴇ**: ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ**: `{duration}`\n👁‍🗨 **ᴠɪᴇᴡꜱ**: `{views}`\n📤 **ʙʏ**: @{BOT_USERNAME} "
+        rep = f"🎙 **ᴛɪᴛʟᴇ**: [{title[:35]}]({link})\n🏷️ **ꜱᴏᴜʀᴄᴇ**: ʏᴏᴜᴛᴜʙᴇ\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ**: `{duration}`\n👀 **ᴠɪᴇᴡꜱ**: `{views}`\n📤 **ʙʏ**: ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ "
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
