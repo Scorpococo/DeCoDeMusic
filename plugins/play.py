@@ -193,13 +193,13 @@ async def play(_, message: Message):
         for administrator in administrators:
             if administrator == message.from_user.id:
                 await lel.edit(
-                    "<b>Remember to add Assistant to your channel</b>",
+                    "<b>♻️ᴄʜᴇᴄᴋɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ </b>",
                 )
                 try:
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first</b>",
+                        "<b>ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀ ᴀᴅᴍɪɴ ɪɴ ᴜʀ ɢʀᴏᴜᴘ</b>",
                     )
                     return
 
@@ -207,10 +207,10 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id,
-                        "Assistant joined this group for playing music in VC",
+                        "ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴊᴏɪɴᴛ ᴜʀ ɢʀᴏᴜᴘ ꜰᴏʀ ᴘʟᴀʏɪɴɢ ᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ꜱᴏɴɢꜱ 😍",
                     )
                     await lel.edit(
-                        "<b>Assistant joined this chat</b>",
+                        "<b>ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴊᴏɪɴᴛ ᴜʀ ɢʀᴏᴜᴘ ꜰᴏʀ ᴘʟᴀʏɪɴɢ ᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ꜱᴏɴɢꜱ 😍</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -224,7 +224,7 @@ async def play(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>"
+            f"<i>Hᴇʏ {user.first_name}, ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴀꜱꜱɪꜱᴛᴀɴᴛ ɪꜱ ɴᴏᴛ ɪɴ ᴜʀ ɢʀᴏᴜᴘ, ᴀᴅᴅ ɪᴛ ꜰɪʀꜱᴛ</i>"
         )
         return
 
@@ -238,7 +238,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"⚠️ ᴠɪᴅᴇᴏ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴀʀᴇɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ɪᴛ..!"
             )
 
         file_name = get_file_name(audio)
