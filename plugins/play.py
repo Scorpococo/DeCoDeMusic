@@ -176,7 +176,7 @@ async def play(_, message: Message):
     if message.chat.id in DISABLED_GROUPS:
         await message.reply("**maintainence mode is on, ask admin to disable it!**")
         return
-    lel = await message.reply("🔄 **Processing...**")
+    lel = await message.reply("⏳ **ᴘʀᴏᴄᴇꜱꜱɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -184,7 +184,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@DeCode_Assistant"
+        user.first_name = "@CrepanAssistance"
     usar = user
     wew = usar.id
     try:
