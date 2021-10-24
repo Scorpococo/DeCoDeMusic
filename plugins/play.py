@@ -193,7 +193,7 @@ async def play(_, message: Message):
         for administrator in administrators:
             if administrator == message.from_user.id:
                 await lel.edit(
-                    "<b>♻️ᴄʜᴇᴄᴋɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ </b>",
+                    "<b>♻️ ᴄʜᴇᴄᴋɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ </b>",
                 )
                 try:
                     invitelink = await _.export_chat_invite_link(chid)
@@ -321,7 +321,7 @@ async def play(_, message: Message):
         await lel.edit("🔎 **ꜰɪɴᴅɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("💡 **ᴘʟᴀʏɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
+        await lel.edit("💽 **ᴘʟᴀʏɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
