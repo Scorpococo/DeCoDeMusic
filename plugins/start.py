@@ -35,7 +35,7 @@ async def start(_, message: Message):
         f"""**Hᴇʏ, ɪ ᴀᴍ 𝗖𝗿𝗲𝗽𝗮𝗻 🤴
 ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ
 sᴜᴘᴇʀғᴀsᴛ ᴀɴᴅ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜsɪᴄ
-ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ](https://t.me/crepan) ...**
+ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ](https://t.me/creatorpavan) ...**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -44,10 +44,10 @@ sᴜᴘᴇʀғᴀsᴛ ᴀɴᴅ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜsɪᴄ
                         "𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧", url="https://telegra.ph/Creator-Pavan-10-24")
                   ],[
                     InlineKeyboardButton(
-                       "𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/crepansupport"
+                       "𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/TheCreatorPavan"
                     ),
                     InlineKeyboardButton(
-                        "𝗦𝗘𝗥𝗩𝗘𝗥", url="https://t.me/crepan_net"
+                        "𝗦𝗘𝗥𝗩𝗘𝗥", url="https://t.me/creatorpavan"
                     )
                 ],[
                     InlineKeyboardButton(
