@@ -251,8 +251,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepansupport"),
-                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/crepansupport"),
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepan_net"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/Creatorpavan"),
                 ],
                 [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
             ]
@@ -289,8 +289,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepansupport"),
-                        InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/crepansupport"),
+                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/Crepansupport"),
+                        InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/crepan_net"),
                     ],
                     [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
                 ]
@@ -353,7 +353,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/crepansupport"),
-                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/crepansupport"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/crepan_net"),
                 ],
                 [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
             ]
