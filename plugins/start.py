@@ -47,7 +47,7 @@ sᴜᴘᴇʀғᴀsᴛ ᴀɴᴅ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜsɪᴄ
                        "𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/crepansupport"
                     ),
                     InlineKeyboardButton(
-                        "𝗢𝗪𝗡𝗘𝗥", url="https://t.me/crepan"
+                        "𝗦𝗘𝗥𝗩𝗘𝗥", url="https://t.me/crepan_net"
                     )
                 ],[
                     InlineKeyboardButton(
