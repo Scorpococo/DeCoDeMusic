@@ -32,22 +32,22 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""**Hᴇʏ, ɪ ᴀᴍ 𝗖𝗿𝗲𝗽𝗮𝗻 🤴
+        f"""**Hᴇʏ, ɪ ᴀᴍ 𝗗𝗢𝗧 𝗠𝗨𝗦𝗜𝗖 😎
 ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ
 sᴜᴘᴇʀғᴀsᴛ ᴀɴᴅ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜsɪᴄ
-ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ](https://t.me/creatorpavan) ...**
+ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ](https://t.me/TheDotBots) ...**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧", url="https://telegra.ph/Creator-Pavan-10-24")
+                        "𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧", url="https://t.me/TheDotBots/8")
                   ],[
                     InlineKeyboardButton(
-                       "𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/TheCreatorPavan"
+                       "𝗢𝗪𝗡𝗘𝗥", url="https://t.me/I_am_nub"
                     ),
                     InlineKeyboardButton(
-                        "𝗦𝗘𝗥𝗩𝗘𝗥", url="https://t.me/creatorpavan"
+                        "𝗦𝗘𝗥𝗩𝗘𝗥", url="https://t.me/TheDotBots"
                     )
                 ],[
                     InlineKeyboardButton(
