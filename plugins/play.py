@@ -251,10 +251,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴏᴡɴᴇʀ", url="t.me/I_AM_NUB"),
-                    InlineKeyboardButton("ꜱᴇʀᴠᴇʀ", url="t.me/TheDotBots"),
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/TheDotBots"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/TheDotBots"),
                 ],
-                [InlineKeyboardButton(text="● 𝗗𝗼𝘁 𝗕𝗼𝘁𝘀 ●", url="t.me/TheDotBots")],
+                [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/I_AM_NUB")],
             ]
         )
 
@@ -289,10 +289,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="t.me/I_AM_Nub"),
-                        InlineKeyboardButton("ꜱᴇʀᴠᴇʀ", url="t.me/TheDotBots"),
+                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/TheDotBots"),
+                        InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/TheDotBots"),
                     ],
-                    [InlineKeyboardButton(text="● 𝗗𝗼𝘁 𝗕𝗼𝘁𝘀 ●", url="t.me/TheDotBots")],
+                    [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/I_AM_Nub")],
                 ]
             )
 
@@ -352,10 +352,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴏᴡɴᴇʀ", url="t.me/i_am_nub"),
-                    InlineKeyboardButton("ꜱᴇʀᴠᴇʀ", url="t.me/TheDotBots"),
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/TheDotBots"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ", url="t.me/TheDotBots"),
                 ],
-                [InlineKeyboardButton(text=" ● 𝗗𝗼𝘁 𝗕𝗼𝘁𝘀 ●", url="t.me/TheDotBots")],
+                [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/i_am_nub")],
             ]
         )
 
@@ -385,7 +385,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🏷️ ɴᴀᴍᴇ :** {}\n**🕒 ᴅᴜʀᴀᴛɪᴏɴ :** {} min\n**🙋‍♂️ ᴅᴏᴛ ᴜꜱᴇʀ :** {}\n\n**💽 ɴᴏᴡ ᴘʟᴀʏɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ ᴀᴛ `{}`...**".format(
+            caption="**🏷️ ɴᴀᴍᴇ :** {}\n**🕒 ᴅᴜʀᴀᴛɪᴏɴ :** {} min\n**🙋‍♂️ ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** {}\n\n**💽 ɴᴏᴡ ᴘʟᴀʏɪɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ ᴀᴛ `{}`...**".format(
                 title, duration, message.from_user.mention(), message.chat.title
             ),
         )
