@@ -32,10 +32,10 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""**Hᴇʏ, ɪ ᴀᴍ 𝗗𝗢𝗧 𝗠𝗨𝗦𝗜𝗖 😎
+        f"""**Hᴇʏ, ɪ ᴀᴍ 𝗗𝗢𝗧 𝗠𝗨𝗦𝗜𝗖
 ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ
 sᴜᴘᴇʀғᴀsᴛ ᴀɴᴅ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜsɪᴄ
-ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ](https://t.me/TheDotBots) ...**
+ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ](https://t.me/i_am_nub) ...**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -44,7 +44,7 @@ sᴜᴘᴇʀғᴀsᴛ ᴀɴᴅ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜsɪᴄ
                         "𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧", url="https://t.me/TheDotBots/8")
                   ],[
                     InlineKeyboardButton(
-                       "𝗢𝗪𝗡𝗘𝗥", url="https://t.me/I_am_nub"
+                       "𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/TheDotBots"
                     ),
                     InlineKeyboardButton(
                         "𝗦𝗘𝗥𝗩𝗘𝗥", url="https://t.me/TheDotBots"
