@@ -353,7 +353,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/TheDotBots"),
-                    InlineKeyboardButton("Sᴇʀᴠᴇʀ", url="t.me/TheDotBots"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/TheDotBots"),
                 ],
                 [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/i_am_nub")],
             ]
