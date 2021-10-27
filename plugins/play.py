@@ -251,10 +251,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/TheCreatorPavan"),
-                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/Creatorpavan"),
+                    InlineKeyboardButton("Oᴡɴᴇʀ 🙋‍♂️", url="t.me/I_AM_NUB"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/TheDotBots"),
                 ],
-                [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
+                [InlineKeyboardButton(text="● 𝗗𝗼𝘁 𝗕𝗼𝘁𝘀 ●", url="t.me/TheDotBots")],
             ]
         )
 
@@ -289,10 +289,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/thecreatorpavan"),
-                        InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/creatorpavan"),
+                        InlineKeyboardButton("Oᴡɴᴇʀ 🙋‍♂️", url="t.me/I_AM_Nub"),
+                        InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/TheDotBots"),
                     ],
-                    [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
+                    [InlineKeyboardButton(text="● 𝗗𝗼𝘁 𝗕𝗼𝘁𝘀 ●", url="t.me/TheDotBots")],
                 ]
             )
 
@@ -352,10 +352,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="t.me/TheCreatorPavan"),
-                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/creatorpavan"),
+                    InlineKeyboardButton("Oᴡɴᴇʀ 🙋‍♂️", url="t.me/i_am_nub"),
+                    InlineKeyboardButton("Sᴇʀᴠᴇʀ 🌐", url="t.me/TheDotBots"),
                 ],
-                [InlineKeyboardButton(text="Oᴡɴᴇʀ 🙋‍♂️", url="t.me/crepan")],
+                [InlineKeyboardButton(text=" ● 𝗗𝗼𝘁 𝗕𝗼𝘁𝘀 ●", url="t.me/TheDotBots")],
             ]
         )
 
